@@ -1,0 +1,102 @@
+meta:
+  title: "Cremini - Playable creatives development"
+  description: Production of interactive advertising creatives to increase conversion.
+  sharing:
+    title: "Cremini - Playable creatives development"
+    description: Production of interactive advertising creatives to increase conversion.
+    image: 'https://storage.yandexcloud.net/cloud-www-assets/constructor/storybook/images/header-bg-video_light.png'
+    keywords:
+      - playable
+      - googleads
+
+background:
+  image: '/img/banner-mionis-2.svg'
+  height: 660
+  animated: true
+  parallax: true
+  fullWidthMedia: true
+  disableCompress: true
+
+blocks:
+  - type: 'header-block'
+    title: "Cremini - Playable creatives development"
+    description: >-
+      Production of interactive advertising creatives to increase conversion.
+    verticalOffset: 'xl'
+    width: 's'
+    buttons:
+      - text: 'Examples'
+        size: 'promo'
+        theme: 'accent'
+        url: 'https://anikiyevichm.github.io/playable-demo/'
+
+
+  - colSizes: 
+      all: 12
+      md: 4
+      sm: 6
+
+    description: 'The process of developing Playables varies among different teams. However, there are four main stages:'
+    items: 
+      - icon: 
+          dark: 'https://storage.yandexcloud.net/cloud-www-assets/constructor/storybook/images/icon_1_dark.svg'
+          light: 'https://storage.yandexcloud.net/cloud-www-assets/constructor/storybook/images/icon_1_light.svg'
+        text: 'At this stage, the game mechanics, interactive elements, and the structure of the Playable advertisement are defined, laying the foundation for the future content. The result is a document containing a detailed description of the scenario and interactions.'
+        title: 'Scenario preparation'
+        links:
+        - arrow: true
+          text: 'Scenario'
+          theme: 'normal'
+          url: 'https://drive.google.com/file/d/1kIaDHDCgWjmNXHGatwEmCmcP38cZPUj0/view?usp=drive_link'
+      - icon:
+          dark: 'https://storage.yandexcloud.net/cloud-www-assets/constructor/storybook/images/icon_2_dark.svg'
+          light: 'https://storage.yandexcloud.net/cloud-www-assets/constructor/storybook/images/icon_2_light.svg'
+        text: 'At this stage, graphic elements, animations, and designs that align with the scenario are developed. The outcome of this phase includes visual assets that will be utilized in the Playable advertisement.'
+        title: 'Graphic preparation'
+        links:
+        - arrow: true
+          text: 'Graphic'
+          theme: 'normal'
+          url: 'https://drive.google.com/file/d/1Y8S3MDc_bwu765hXOj9b3TaUVq42IzEp/view?usp=drive_link'
+      - icon: 
+          dark: 'https://www.svgrepo.com/show/13695/star.svg'
+          light: 'https://www.svgrepo.com/show/13695/star.svg'
+        links:
+        - arrow: true
+          text: "Playables"
+          theme: 'normal'
+          url: 'https://anikiyevichm.github.io/playable-demo/'
+        text: 'At this stage, programming and integration of all components of the Playable content occur according to the previously developed scenario and graphics. The result of this stage is the final interactive content.'
+        title: 'Development'
+      - icon: 
+          dark: 'https://storage.yandexcloud.net/cloud-www-assets/constructor/storybook/images/icon_3_dark.svg'
+          light: 'https://storage.yandexcloud.net/cloud-www-assets/constructor/storybook/images/icon_3_light.svg'
+        links:
+        - arrow: true
+          text: 'QA Report'
+          theme: 'normal'
+          url: 'https://drive.google.com/file/d/1Uc1udCTF6qCrZP9vVV30R94rfG3jPjI1/view?usp=drive_link'
+        text: 'Thorough testing of the developed Playable content takes place here, including compatibility checks with various devices and platforms, as well as identification and resolution of errors. The result of this stage is refined and ready-to-use Playable content.'
+        title: 'Testing'
+    title:
+      text: 'Development Process of Playables'
+      textSize: 'm'
+
+    type: 'extended-features-block'
+      
+
+  - type: 'content-layout-block'
+    textContent:
+      buttons: 
+      - text: 'Zoom'
+        theme: 'action'
+        url: 'https://calendly.com/nn-tverd/playable-out-source-nikolay'
+      - text: 'Call'
+        url: 'tel:+77015594405'
+        theme: 'outlined'
+      - text: 'E-mail'
+        theme: 'outlined'
+        url: 'mailto:nn.tverd@gmail.com'
+      text: "Do you have any unanswered questions? Or are you ready to start working with us? First of all, let's get acquainted. There are several ways to do this:"
+      title: 'What should I do to start working?'
+

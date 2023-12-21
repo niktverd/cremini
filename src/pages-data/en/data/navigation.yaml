@@ -1,0 +1,51 @@
+header:
+  leftItems:
+    # - text: Pages
+    #   type: 'dropdown'
+    #   items:
+    #     - text: 'Page 1'
+    #       url: 'pages/page-1'
+    #     - text: 'Page 2'
+    #       url: 'pages/page-2'
+    - text: Development Process
+      url: 'development'
+  rightItems:
+    # - text: 'Github'
+    #   url: 'https://github.com/gravity-ui/page-constructor-website-template'
+    #   icon: 'https://storage.yandexcloud.net/cloud-www-assets/constructor/storybook/icons/git.svg'
+    - type: 'button'
+      text: 'Examples'
+      url: 'https://anikiyevichm.github.io/playable-demo/'
+      theme: pseudo
+
+logo:
+  icon: 'logos/cremini-logo-64-circle-icon-dark.png'
+  text: 'Cremini'
+  size: 32
+
+footer:
+  underline:
+    links:
+      - text: The MIT License
+        url: 'https://github.com/gravity-ui/page-constructor-website-template/LICENSE'
+    copyright: '© 2022 GravityUI'
+  social:
+    - type: 'social'
+      icon: 'https://storage.yandexcloud.net/cloud-www-assets/constructor/storybook/icons/git.svg'
+      url: 'https://github.com/gravity-ui/page-constructor-website-template'
+  columns:
+    - title: Pages
+      links:
+        - text: 'Page 1'
+          url: '/pages/page-1'
+        - text: 'Page 2'
+          url: '/pages/page-2'
+        - text: 'Page-3'
+          url: '/page-3'
+
+meta:
+  title: Cremini
+  description: Production of interactive advertising creatives to increase conversion.
+
+favicon:
+  folder: /

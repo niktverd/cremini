@@ -1,0 +1,165 @@
+meta:
+  title: "Cremini - Playable creatives development"
+  description: Production of interactive advertising creatives to increase conversion.
+  sharing:
+    title: "Cremini - Playable creatives development"
+    description: Production of interactive advertising creatives to increase conversion.
+    image: 'https://storage.yandexcloud.net/cloud-www-assets/constructor/storybook/images/header-bg-video_light.png'
+    keywords:
+      - playable
+      - googleads
+
+background:
+  image: '/img/banner-mionis.svg'
+  height: 660
+  animated: true
+  parallax: true
+  fullWidthMedia: true
+  disableCompress: true
+
+blocks:
+  - type: 'header-block'
+    title: "Creminis - Playable creatives development"
+    description: >-
+      Production of interactive advertising creatives to increase conversion.
+    verticalOffset: 'xl'
+    width: 's'
+    buttons:
+      - text: 'Examples'
+        size: 'promo'
+        theme: 'accent'
+        url: 'https://anikiyevichm.github.io/playable-demo/'
+
+  - type: 'slider-block'
+    title: 'Outsourcing the development of Playables means that our team of developers will create an interactive banner based on your scenario and graphic materials.'
+    description: '* The offer for $499 includes the following conditions'
+    dots: true
+    arrows: true
+    children:
+      - type: 'background-card'
+        title: 'Our main offer is the development of Playables.'
+        text: 'which includes the layout of interactive material according to your requirements.'
+        background:
+          src: '/img/mionix-card-background-1.png'
+          alt: 'card-background'
+          disableCompress: true
+        url: 'https://nextjs.org/'
+        paddingBottom: 'l'
+      - type: 'background-card'
+        title: 'We guarantee that the developed Playable will correspond to all the mechanics described in your scenario.'
+        text: "However, if some of them are not supported by our engine, it will require modifications, which might involve additional costs and extend the project timeline."
+        background:
+          src: '/img/mionix-card-background-2.png'
+          alt: 'card-background'
+          disableCompress: true
+        url: 'https://github.com/gravity-ui/page-constructor'
+        paddingBottom: 'l'
+      - type: 'background-card'
+        title: 'The $499 offer does not include the cost of scenario development.'
+        text: "as well as the preparation of graphics and testing of the Playable. If you need assistance with these stages, we are ready to take on this work for an additional fee."
+        background:
+          src: '/img/mionix-card-background-3.png'
+          alt: 'card-background'
+          disableCompress: true
+        url: '#'
+        paddingBottom: 'l'
+      - type: 'background-card'
+        title: 'We can also recommend trusted contractors.'
+        text: "specializing in script development, graphics, and testing, who can assist you in these project stages."
+        background:
+          src: '/img/mionix-card-background-4.png'
+          alt: 'card-background'
+          disableCompress: true
+        url: '#'
+        paddingBottom: 'l'
+
+
+        
+  - additionalInfo: 'More details about what Playable is can be found through the links below.'
+    description: 'Playable is an interactive advertising format that helps advertisers showcase their application in action to persuade users to download it. This format significantly increases ad conversion rates (CTR) and reduces the cost per action (CPA).'
+    largeMedia: false
+    media: 
+      light: 
+        image: 'https://leonardo.osnova.io/1b164d40-f284-cc0e-5819-d1b85e62ff89/-/preview/2000/-/format/webp/'
+    mediaOnly: false
+    size: 'l'
+    title: 'What is Playable?'
+    type: 'media-block'
+    buttons:
+      - text: 'Google'
+        size: 'promo'
+        theme: 'outlined-info'
+        url: 'https://t.ly/uivNQ'
+      - text: 'Facebook'
+        size: 'promo'
+        theme: 'outlined-success'
+        url: 'https://t.ly/CiJXi'
+
+  - colSizes: 
+      all: 12
+      md: 4
+      sm: 6
+
+    description: 'The process of developing Playables varies among different teams. However, there are four main stages:'
+    items: 
+      - icon: 
+          dark: 'https://storage.yandexcloud.net/cloud-www-assets/constructor/storybook/images/icon_1_dark.svg'
+          light: 'https://storage.yandexcloud.net/cloud-www-assets/constructor/storybook/images/icon_1_light.svg'
+        text: 'At this stage, the game mechanics, interactive elements, and the structure of the Playable advertisement are defined, laying the foundation for the future content. The result is a document containing a detailed description of the scenario and interactions.'
+        title: 'Scenario preparation'
+        links:
+        - arrow: true
+          text: 'Scenario'
+          theme: 'normal'
+          url: 'https://drive.google.com/file/d/1kIaDHDCgWjmNXHGatwEmCmcP38cZPUj0/view?usp=drive_link'
+      - icon:
+          dark: 'https://storage.yandexcloud.net/cloud-www-assets/constructor/storybook/images/icon_2_dark.svg'
+          light: 'https://storage.yandexcloud.net/cloud-www-assets/constructor/storybook/images/icon_2_light.svg'
+        text: 'At this stage, graphic elements, animations, and designs that align with the scenario are developed. The outcome of this phase includes visual assets that will be utilized in the Playable advertisement.'
+        title: 'Graphic preparation'
+        links:
+        - arrow: true
+          text: 'Graphic'
+          theme: 'normal'
+          url: 'https://drive.google.com/file/d/1Y8S3MDc_bwu765hXOj9b3TaUVq42IzEp/view?usp=drive_link'
+      - icon: 
+          dark: 'https://www.svgrepo.com/show/13695/star.svg'
+          light: 'https://www.svgrepo.com/show/13695/star.svg'
+        links:
+        - arrow: true
+          text: "Playables"
+          theme: 'normal'
+          url: 'https://anikiyevichm.github.io/playable-demo/'
+        text: 'At this stage, programming and integration of all components of the Playable content occur according to the previously developed scenario and graphics. The result of this stage is the final interactive content.'
+        title: 'Development'
+      - icon: 
+          dark: 'https://storage.yandexcloud.net/cloud-www-assets/constructor/storybook/images/icon_3_dark.svg'
+          light: 'https://storage.yandexcloud.net/cloud-www-assets/constructor/storybook/images/icon_3_light.svg'
+        links:
+        - arrow: true
+          text: 'QA Report'
+          theme: 'normal'
+          url: 'https://drive.google.com/file/d/1Uc1udCTF6qCrZP9vVV30R94rfG3jPjI1/view?usp=drive_link'
+        text: 'Thorough testing of the developed Playable content takes place here, including compatibility checks with various devices and platforms, as well as identification and resolution of errors. The result of this stage is refined and ready-to-use Playable content.'
+        title: 'Testing'
+    title:
+      text: 'Development Process of Playables'
+      textSize: 'm'
+
+    type: 'extended-features-block'
+
+  - type: 'content-layout-block'
+    textContent:
+      buttons: 
+      - text: 'Zoom'
+        theme: 'action'
+        url: 'https://calendly.com/nn-tverd/playable-out-source-nikolay'
+      - text: 'Call'
+        url: 'tel:+77015594405'
+        theme: 'outlined'
+      - text: 'E-mail'
+        theme: 'outlined'
+        url: 'mailto:nn.tverd@gmail.com'
+      text: "Do you have any unanswered questions? Or are you ready to start working with us? First of all, let's get acquainted. There are several ways to do this:"
+      title: 'What should I do to start working?'
+
