@@ -19,7 +19,7 @@ background:
 
 blocks:
   - type: 'header-block'
-    title: "Creminis - Playable creatives development"
+    title: "Cremini - Playable creatives development"
     description: >-
       Production of interactive advertising creatives to increase conversion.
     verticalOffset: 'xl'
@@ -30,9 +30,25 @@ blocks:
         theme: 'accent'
         url: 'https://anikiyevichm.github.io/playable-demo/'
 
+  - type: "media-block"
+    title: "Adventure"
+    description: "Playable example. You can try it right here. Feel free to fight the giant spider and gather resources."
+    direction: "media-content"
+    largeMedia: true
+    media:
+      light:
+        iframe:
+          src: "https://anikiyevichm.github.io/playable-demo/adventure.html"
+          name: "adventure"
+        margins: false
+    button:
+      text: 'Zoom us to create Playable'
+      theme: 'action'
+      url: 'https://calendly.com/nn-tverd/playable-out-source-nikolay'
+
   - type: 'slider-block'
     title: 'Outsourcing the development of Playables means that our team of developers will create an interactive banner based on your scenario and graphic materials.'
-    description: '* The offer for $499 includes the following conditions'
+    description: '* The offer for $990 includes the following conditions'
     dots: true
     arrows: true
     children:
@@ -55,7 +71,7 @@ blocks:
         url: 'https://github.com/gravity-ui/page-constructor'
         paddingBottom: 'l'
       - type: 'background-card'
-        title: 'The $499 offer does not include the cost of scenario development.'
+        title: 'The $990 offer does not include the cost of scenario development.'
         text: "as well as the preparation of graphics and testing of the Playable. If you need assistance with these stages, we are ready to take on this work for an additional fee."
         background:
           src: '/img/mionix-card-background-3.png'
@@ -73,7 +89,21 @@ blocks:
         url: '#'
         paddingBottom: 'l'
 
-
+  - type: "media-block"
+    title: "Graphics"
+    description: "Playable example. Experience our playables' visually stunning world! Dive into breathtaking graphics that bring each pixel to life. Explore intricately designed landscapes, meet vibrant characters, and immerse yourself in captivating gameplay. Discover how exceptional visuals elevate your gaming experience!"
+    direction: "content-media"
+    largeMedia: true
+    media:
+      light:
+        iframe:
+          src: "https://anikiyevichm.github.io/playable-demo/graphic.html"
+          name: "graphic"
+        margins: false
+    button:
+      text: 'Zoom us to create Playable'
+      theme: 'action'
+      url: 'https://calendly.com/nn-tverd/playable-out-source-nikolay'
         
   - additionalInfo: 'More details about what Playable is can be found through the links below.'
     description: 'Playable is an interactive advertising format that helps advertisers showcase their application in action to persuade users to download it. This format significantly increases ad conversion rates (CTR) and reduces the cost per action (CPA).'
@@ -147,6 +177,22 @@ blocks:
       textSize: 'm'
 
     type: 'extended-features-block'
+
+  - type: "media-block"
+    title: "Puzzle"
+    description: "Playable example. Explore intricate mechanics in our playables! Dive into a world of innovation and dynamic challenges. Experience the thrill of engaging puzzles and captivating gameplay. Embark on an adventure that's intellectually stimulating and entertaining!"
+    direction: "media-content"
+    largeMedia: true
+    media:
+      light:
+        iframe:
+          src: "https://anikiyevichm.github.io/playable-demo/puzzle.html"
+          name: "puzzle"
+        margins: false
+    button:
+      text: 'Zoom us to create Playable'
+      theme: 'action'
+      url: 'https://calendly.com/nn-tverd/playable-out-source-nikolay'
 
   - type: 'content-layout-block'
     textContent:
